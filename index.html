@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="assests/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+    <div>
+        <h2>Shopping Cart</h2>
+    </div>
+    <div class="breadcrumb">
+        <span>Homepage / </span>
+        <span>Clothing Categories / </span>
+        <span><a href="#">My shopping cart</a></span>
+    </div>
+
+    <div class="cart-container">
+        <div class="cart-payment-details elements-margin-bottom">
+            <div class="login-block "> 
+                <div> 
+                    <span class="dot"> a </span>
+                    <span>LOGIN</span>   
+                    <span> <i class="fa fa-solid fa-check"></i></span> <br>
+                    <span> Miachael Smit</span>
+                    <span> +806- 445- 4453</span>
+                </div> 
+            
+                <button > CHANGE</button>
+            </div>
+            <div class="address-block elements-margin-bottom">
+                <!-- <div> 
+                    <span class="dot"> a </span>
+                    <span>SHIPPING ADDRESS</span>   
+                    <span> <i class="fa fa-solid fa-check"></i></span> <br>
+                    <span>Brady Cooper, New Civil Colony, Salt Lake City, Utah United States, 2971 Avenue </span>
+                    <span> +806- 445- 4453</span>
+                </div> 
+            
+                <button > CHANGE</button> -->
+
+            </div>
+            <div class="payment-method elements-margin-bottom">
+                <span class="dot">b</span>
+                <span>PAYMENT METHOD</span>
+            </div>
+            <div class="card-details elements-margin-bottom">
+                <span class="dot">  &nbsp;&nbsp; </span>
+                <span class="bank-icons elements-margin-right"><i class="fa fa-duotone fa-credit-card"></i></span>
+                <span>Debit / Credit Card</span>
+                <form>
+                    <label for = "card-number" value="card number">Enter Card Number*</label><br>
+                    <input id = "card-number" type="number"><br>
+
+                    <label for = "valid-date" value="valid-date">Valid Date</label><br>
+                    <input id = "card-number" type="month" >
+
+                    <label for = "card-cvv" value="card number">CVV*</label>
+                    <input id = "card-cvv" type="number">
+
+                    <input id="card-submit" type="button" value="Pay $117.00">
+                </form>
+                <span>Your card details would be securly saved for faster payments. Your CVV will not be stored.</span>
+            </div>
+
+            <div class="net-banking-block elements-margin-bottom">
+                <span class="dot">   &nbsp;&nbsp; </span>
+                <span class="bank-icons elements-margin-right"><i class="fa fa-thin fa-globe"></i></span>
+                <span>Net Banking</span>
+            </div>
+
+            <div class="wallet-block elements-margin-bottom">
+                <span class="dot"> &nbsp;&nbsp; </span>
+                <span class="bank-icons elements-margin-right"><i class="fa fa-thin fa-globe"></i></span>
+                <span>Google / Apple Wallet</span>
+            </div>
+        </div>
+
+
+        <div class="order-summary">
+           <div>
+               <h5 class="order-summary-heading">Your Order</h5>
+           </div>
+           <hr>
+           <div class="order-item">
+                <img src="./assests/images/shirt-img-1.png">
+                <div class="order-details">
+                 <span> Jeans with sequins </span>
+                 <span> Size  XL &nbsp; Color  blue</span>
+                 <span> $39,00 x 02 </span>
+                </div>
+           </div>
+           <hr>
+           <div class="order-item">
+            <img src="./assests/images/shirt-2-img.png">
+            <div class="order-details">
+             <span> Jeans with sequins </span>
+             <span> Size  XL &nbsp; Color  blue</span>
+             <span> $39,00 x 02 </span>
+            </div>
+            </div>
+            <hr>
+
+            <div>
+                <span class="fl">Delivery </span>
+                <span class="fr">$20(express)</span>   <br>
+                <span class="fl">Discount </span>
+                <span class="fr">-$20</span>
+            </div><br>
+
+            <div>
+                <h5 class="fl">Total </h5>
+                <h5 class="fr"> $177,00 </h5>                
+            </div>
+
+        </div>
+    </div>
+    </main>
+    
+</body>
+</html>
